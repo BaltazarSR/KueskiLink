@@ -1,0 +1,35 @@
+.header {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 1rem;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2; 
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.75rem;
+  font-weight: 600;
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.kueski {
+  color: #3272f2;
+}
+
+.link {
+  color: #000000;
+}

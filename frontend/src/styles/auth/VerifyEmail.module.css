@@ -1,0 +1,87 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.blue {
+  color: #3366FF;
+}
+
+.iconWrapper {
+  background-color: #e8f0ff;
+  border-radius: 50%;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 36px;
+  color: #3366FF;
+}
+
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  background-color: #3366FF;
+  color: white;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.button:disabled {
+  background-color: #aac5ff;
+  cursor: not-allowed;
+}
+
+.resend {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.resendLink {
+  color: #3366FF;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.resendLink:hover {
+  text-decoration: underline;
+}
+
+.back {
+  font-size: 0.85rem;
+  color: #444;
+  cursor: pointer;
+  margin-top: 1rem;
+}

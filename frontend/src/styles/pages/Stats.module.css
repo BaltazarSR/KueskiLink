@@ -1,0 +1,238 @@
+.section{
+    border-bottom: 2px solid #eaeaea;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.titles {
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-size: 32px;
+    color: #3272F2;
+    font-weight: 700;
+}
+
+.bestDay{
+    font-size: 24px;
+    color: #999999;
+    font-weight: 700;
+}
+
+.sellingProducts{
+    display: flex;
+    margin-bottom: 8px;
+    gap: 16px;
+}
+
+.totalSales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3ECFF;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.totalSales p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3272F2;
+    padding: 3px 10px; 
+}
+
+.salesDetails{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.saleConcept{
+    font-size: 16px;
+    color: #1E1E1E;
+    font-weight: 700;
+}
+
+.paidLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3ECFF;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.paidLink p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3272F2;
+    padding: 3px 10px; 
+}
+
+.activeLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccf6b2;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.activeLink p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #009951;
+    padding: 3px 10px; 
+}
+
+.overdueLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5b2b2;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.overdueLink p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #630002 ;
+    padding: 3px 10px; 
+}
+
+.cancelledLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fed29f;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.cancelledLink p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8A4900 ;
+    padding: 3px 10px; 
+}
+
+.graph {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+}
+
+.bar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+}
+
+.bar-lun {
+    background-color: #3272F2;
+    width: 55%;
+    height: 5%;
+    align-self: end;
+    border-radius: 5px 5px 0 0;
+}
+
+.bar-mar {
+    background-color: #3272F2;
+    width: 55%;
+    height: 5%;
+    align-self: end;
+    border-radius: 5px 5px 0 0;
+}
+
+.bar-mie {
+    background-color: #3272F2;
+    width: 55%;
+    height: 5%;
+    align-self: end;
+    border-radius: 5px 5px 0 0;
+}
+
+.bar-jue {
+    background-color: #3272F2;
+    width: 55%;
+    height: 5%;
+    align-self: end;
+    border-radius: 5px 5px 0 0;
+}
+
+.bar-vie {
+    background-color: #3272F2;
+    width: 55%;
+    height: 5%;
+    align-self: end;
+    border-radius: 5px 5px 0 0;
+}
+
+.bar-sab {
+    background-color: #3272F2;
+    width: 55%;
+    height: 5%;
+    align-self: end;
+    border-radius: 5px 5px 0 0;
+}
+
+.bar-dom {
+    background-color: #3272F2;
+    width: 55%;
+    height: 5%;
+    align-self: end;
+    border-radius: 5px 5px 0 0;
+}
+
+.num-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    font-size: 2.5vw;
+    font-weight: 900;
+    color: #999999;
+    gap: 21vw;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.week-button {
+    background-color: #E3ECFF;
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.week-text {
+    font-size: 13px;
+}

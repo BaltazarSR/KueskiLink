@@ -1,0 +1,67 @@
+/*src/styles/menu/AddEmployee.module.css*/
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-bottom: 5rem; 
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.button {
+  background-color: #3366FF;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.button:disabled {
+  background-color: #aac4ff;
+  cursor: not-allowed;
+}
+
+.dangerButton {
+  background-color: #ff4d4f;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+.confirmation {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ff4d4f;
+  border-radius: 8px;
+  background-color: #fff5f5;
+  color: #b30000;
+}
+
+.background-add-button {
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    width: 90%;
+    z-index: 1000;
+}

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #e6a100;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.subMessage{
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.iconCanceled {
+  width: 230px;
+  height: 230px;
+  border: 4px solid #e6a100;
+  border-radius: 50%;
+  color: #e6a100;
+  font-size: 8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

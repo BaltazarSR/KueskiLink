@@ -1,0 +1,52 @@
+.backArrow {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.kueski {
+  color: rgba(50, 114, 242);
+  font-weight: 500;
+}
+
+
+.subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faqList {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.faqList li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  font-size: 16px;
+  color: rgb(50, 114, 242);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.answer {
+  font-size: 16px;
+  margin-top: 5px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}

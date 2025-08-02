@@ -1,0 +1,58 @@
+.option{
+    border-bottom: 2px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.optionIcon{
+    width: 10%;
+}
+
+.optionText{
+    width: 80%;
+}
+
+.optionText  p{
+    font-size: 14px;
+}
+
+.title{
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.optionButton{
+    width: 10%;
+}
+
+.optionButton button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.optionButton img{
+    width: 24px;
+    height: 24px;
+}
+
+.optionIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.notificationDot {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: #e53935;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px white;
+}

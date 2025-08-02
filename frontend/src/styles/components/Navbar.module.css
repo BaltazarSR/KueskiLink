@@ -1,0 +1,51 @@
+/* src/styles/Navbar.module.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.navbarBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.profileIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.logo span {
+  color: #3366FF;
+}
+
+.menuIconWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.notificationDot {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 9px;
+  height: 9px;
+  background-color: #e53935;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px white;
+}

@@ -1,0 +1,98 @@
+.profile-container {
+  padding: .5rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  text-align: left;
+  gap: 3vh;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.business-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.n-title {
+  font-weight: bold;
+}
+
+.logout-button {
+  background-color: #CD2020;
+  color: #FFFAFA;
+  padding: 0.75rem;
+  font-size: 1rem;
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.background-add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.logout-button:hover {
+  background-color: #a71414;
+}
+
+.item{
+    border-bottom: 2px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 2vh;
+}
+
+.item-icon{
+    width: 10%;
+}
+
+.item-text{
+    width: 75%;
+}
+
+.item-text  p{
+    font-size: 14px;
+}
+
+.title{
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.item-button{
+    width: 10%;
+}
+
+.item-button button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item-button img{
+    width: 24px;
+    height: 24px;
+}
+  

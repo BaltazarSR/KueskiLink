@@ -1,0 +1,86 @@
+/*src/styles/menu/Employees.module.css*/
+.employeeList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.employeeCard {
+  display: flex;
+  align-items: flex-start; /* importante para permitir contenido multilinea */
+  padding: 0.75rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.iconWrapper {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.name {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #666;
+  word-break: break-word;
+}
+
+.status {
+  font-size: 0.75rem;
+  color: #888;
+  word-break: break-word;
+}
+
+
+.addButton {
+  margin-top: 2rem;
+  background-color: #3366FF;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.searchInput {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.sortSelect {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.background-add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    width: 90%;
+    z-index: 1000;
+}

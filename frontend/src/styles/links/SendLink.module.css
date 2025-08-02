@@ -1,0 +1,135 @@
+/* src/styles/links/SendLink.css */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.input {
+    width: 100%;
+    padding: 0.75rem 2.5rem 0.75rem 0.75rem;
+    border: 1px solid #727070;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.labels {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 10px 12px;
+}
+
+.separation-line {
+    height: 1px;
+    background-color: #D9D9D9;
+}
+
+.share-type-title {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.button {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.send-button {
+    background-color: #3272F2;
+    color: white;
+    margin: 0 auto;
+    padding: 12px 24px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 40%;
+    margin-top: auto;
+}
+
+.qr-container {
+    display: flex;
+    justify-content: center;
+}
+
+.qr-image {
+    width: 150px;
+    height: 150px;
+}
+
+.more-options {
+    text-align: center;
+    color: #323232;
+}
+
+.success-message {
+    color: #3272F2;
+    font-weight: 600;
+    text-align: center;
+}
+
+.icon-text-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.share-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.chevron-icon {
+    width: 16px;
+    height: 16px;
+}

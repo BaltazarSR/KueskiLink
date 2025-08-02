@@ -1,0 +1,63 @@
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  font-size: 0.95rem;
+}
+
+.statusRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  width: 100%;
+}
+
+.statusIcon {
+  width: 30px;
+  height: 30px;
+}
+
+
+.status-active {
+  background-color: #CCF1B5;
+}
+
+.status-overdue {
+  background-color: #F1B5B5;
+}
+
+.status-paid {
+  background-color: #B5D4F1;
+}
+
+.status-cancelled {
+  background-color: #FFC88A;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.actions button {
+  padding: 0.8rem;
+  background-color: #3366FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.actions button:hover {
+  background-color: #254eda;
+}

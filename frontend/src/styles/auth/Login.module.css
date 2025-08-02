@@ -1,0 +1,92 @@
+.container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.logo span {
+  color: #3366FF;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 2.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 0.85rem;
+  font-size: 1rem;
+  background-color: #3366FF;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:disabled {
+  background-color: #aac5ff;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: -0.5rem;
+}
+
+.forgot,
+.register {
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.forgot {
+  color: #999;
+}
+
+.register {
+  color: #555;
+}
+
+.register a {
+  color: #3366FF;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
